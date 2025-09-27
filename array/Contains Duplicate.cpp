@@ -8,8 +8,9 @@ int main(){
         count[nums[i]]++;
     }
     for(auto &i:count){
-        if(i.second==2){
+        if(i.second>=2){
             cout << "true";
         }
     }
+
 }
